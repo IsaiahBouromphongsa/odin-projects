@@ -1,9 +1,28 @@
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body {
     font-family: "Roboto";
 }
-img {
-    width: 200px;
-    height:auto;
+.combine img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+}
+.combine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .container-1 {
     background-color: #1F2937;
@@ -50,14 +69,40 @@ button {
     color: #E5E7EB;
     padding: 5px;
 }
+.container-2 {
+    display: flex;
+    flex-direction: column;
+}
+.flavors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.combine div {
+    display: flex;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.container-4 {
+    background-color: white;
+}
 .blue-box {
     background-color: #3882F6;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
 .title-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -69,9 +114,16 @@ button {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     background-color: #1F2937;
+
 }
 .copyright {
     color: #f9faf8;
