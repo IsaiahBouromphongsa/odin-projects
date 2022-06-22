@@ -84,6 +84,7 @@ button {
     display: flex;
     text-align: center;
     padding-bottom: 80px;
+    width: 150px;
 }
 .container-4 {
     background-color: white;
